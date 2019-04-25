@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                                         primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.TextField()),
                 ('completed', models.TextField()),
-                ('dueDate', models.DateField()),
+                ('duedate', models.DateField()),
             ],
         ),
     ]

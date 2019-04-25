@@ -11,4 +11,4 @@ class TodoView(viewsets.ModelViewSet):
     serializer_class = TodoSerializer
     queryset = Todo.objects.all()
     filter_backends = (DjangoFilterBackend,)
-    filterset_fields = ('completed', 'dueDate')
+    filterset_fields = ('completed', 'duedate')
